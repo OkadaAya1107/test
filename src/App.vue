@@ -1,47 +1,26 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+ <TheThoughts />
+ <TheDifferences />
+ <TheFeatures1 />
+ <TheFeatures2 />
+ <TheFeatures3 />
+ <TheFeatures4 />
+ <TheFlow />
+ <ThePoint />
 </template>
 
+<script setup>
+import TheThoughts from './components/TheThoughts.vue';
+import TheDifferences from './components/TheDifferences.vue';
+import TheFeatures1 from './components/TheFeatures1.vue';
+import TheFeatures2 from './components/TheFeatures2.vue';
+import TheFeatures3 from './components/TheFeatures3.vue';
+import TheFeatures4 from './components/TheFeatures4.vue';
+import TheFlow from './components/TheFlow.vue';
+import ThePoint from './components/ThePoint.vue';
+
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
