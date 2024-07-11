@@ -1,12 +1,18 @@
 <template>
- <TheThoughts />
- <TheDifferences />
- <TheFeatures1 />
- <TheFeatures2 />
- <TheFeatures3 />
- <TheFeatures4 />
- <TheFlow />
- <ThePoint />
+  <main>
+    <div class="container">
+      <div class="subcontainer">
+        <TheThoughts />
+        <TheDifferences />
+        <TheFeatures1 />
+        <TheFeatures2 />
+        <TheFeatures3 />
+        <TheFeatures4 />
+        <TheFlow />
+        <ThePoint />
+      </div>
+    </div>
+  </main>
 </template>
 
 <script setup>
@@ -21,6 +27,4 @@ import ThePoint from './components/ThePoint.vue';
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
