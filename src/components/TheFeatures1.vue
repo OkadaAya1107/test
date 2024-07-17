@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="box">
-      <img class="logo" src="/images/image-24.png" alt="">
+      <img class="logo" src="/images/logo.png" alt="">
       <h2 class="subtitle">Features</h2>
       <p>教材の特徴</p>
     </div>
@@ -76,15 +76,14 @@ section {
 }
 
 .container-2 {
+  width: 40%;
   margin: 0 auto;
   margin-top: 40px;
 }
 
-.container-2 img {
-  width: 800px;
-  height: 202px;
-  top: 285px;
-  left: 720px;
+.container-box {
+  display: flex;
+  margin: 0 auto;
 }
 
 .container-box {
@@ -100,6 +99,8 @@ section {
 
 .title {
   color: #005A9C;
+  padding: 40px 0 40px 0;
+  font-size: 24px;
 }
 
 .circle {
@@ -121,26 +122,12 @@ section {
   font-size: 24px;
 }
 
-.right img {
-  width: 44px;
-  height: 51px;
-  top: 271px;
-  left: 230px;
-}
-
-.title {
-  padding: 40px 0 40px 0;
-  font-size: 24px;
-}
-
 .subtitle {
   color: #005A9C;
-}
+} 
 
 .text {
   line-height: 2;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 /* タブレット */

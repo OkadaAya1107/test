@@ -61,7 +61,7 @@ section {
   background-blend-mode: multiply;
 }
 
-.container-1 {
+.container {
   width: 40%;
   margin: 0 auto;
 }
@@ -79,7 +79,7 @@ section {
 /* タブレット */
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 
   .layout {
@@ -90,7 +90,7 @@ section {
 /* モバイル */
 @media (min-width: 576px) and (max-width: 767px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 
   .layout {
@@ -101,7 +101,7 @@ section {
 /* モバイルミニ */
 @media (max-width: 575px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 
   .layout {
